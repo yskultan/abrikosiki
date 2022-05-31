@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=dev nuxt",
     "build": "cross-env NODE_ENV=production nuxt build",
-    "start": "cross-env NODE_ENV=production nuxt start --hostname '0'"
+    "start": "cross-env NODE_ENV=production nuxt start --hostname '0'",
+    "generate": "cross-env NODE_ENV=production nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/style-resources": "^1.2.1",

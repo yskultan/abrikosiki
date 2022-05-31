@@ -2,6 +2,7 @@ const isDev = process.env.NODE_ENV !== 'production';
 
 export default {
   srcDir: 'src',
+  target: 'static',
   head: {
     title: 'Абрикосики',
     meta: [
