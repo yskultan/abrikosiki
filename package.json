@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=dev nuxt",
-    "build": "cross-env NODE_ENV=production YANDEX_METRIKA=88952204 nuxt build",
-    "start": "cross-env NODE_ENV=production YANDEX_METRIKA=88952204 nuxt start",
-    "generate": "cross-env NODE_ENV=production YANDEX_METRIKA=88952204 nuxt generate"
+    "build": "cross-env NODE_ENV=production YANDEX_METRICA=88952204 nuxt build",
+    "start": "cross-env NODE_ENV=production YANDEX_METRICA=88952204 nuxt start",
+    "generate": "cross-env NODE_ENV=production YANDEX_METRICA=88952204 nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/style-resources": "^1.2.1",
